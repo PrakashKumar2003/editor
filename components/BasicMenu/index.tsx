@@ -98,6 +98,7 @@ export default function BasicMenu({ onClick, Icon, handleImageUpload }: BasicMen
                                         </label>
                                     </MenuItem>
                                 }
+                                
                                 return <MenuItem sx={{...item.style,...additinalStyle}}  onClick={() => handleItemClick(item)}> {item.label}</MenuItem>
                             })}
                         </div>
